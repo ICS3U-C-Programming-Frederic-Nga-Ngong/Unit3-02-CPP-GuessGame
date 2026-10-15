@@ -6,7 +6,7 @@
 #include <iostream>
 int main() {
     float number;
-    const float CORRECT_ANSWER = 4;
+    const float CORRECT_ANSWER = 5;
 
     // get the number from the user
     std::cout << "Enter any  number between 0 and 10\n";
@@ -14,7 +14,7 @@ int main() {
 
     // Determine if the number is correct
     if (number == CORRECT_ANSWER) {
-        std::cout << "The numbr is correct\n";}
+        std::cout << "The number is correct\n";}
 
     // Determine if the number is wrong
     if (number != CORRECT_ANSWER) {
